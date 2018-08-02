@@ -23,14 +23,21 @@ function appendKitten(kitten){
 
 
 function prependKitten(kitten){
+<<<<<<< HEAD
   var li = [kitten]
   return li.concat(kittens)
+=======
+  return kittens.splice(0,0,kitten)
+>>>>>>> 046fcc40536d7487ac6c0b036339eb4de196fbb1
 }
 
 function removeLastKitten(){
   return kittens.slice(0,-1)
 }
 
+<<<<<<< HEAD
 function removeFirstKitten(){
   return kittens.slice(1)
 }
+=======
+>>>>>>> 046fcc40536d7487ac6c0b036339eb4de196fbb1
